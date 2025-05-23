@@ -152,8 +152,497 @@
         <!-- Versión MÓVIL -->
         <div class="d-block d-md-none d-sm-block">
             <div class="device-title mobile-title">
-                <h2>Versión Móvil</h2>
-                <p>Smartphones (360px-767px)</p>
+                <div class="container-fluid p-5 text-light">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1>Futbook</h1>
+                        </div>
+                        <div class="col-4 offset-2">
+                            <select id="selector" class="form-select">
+                                <option value="opcion1">Horarios</option>
+                                <option value="opcion2">Asientos</option>
+                                <option value="opcion3">Resultados</option>
+                                <option value="opcion4">Información</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Contenedores de cada opción (inicialmente ocultos, excepto el primero) -->
+                    <div id="opcion1" class="contenido-opcion" style="display: block;">
+                        <div class="row text-center">
+                            <div class="col">
+                                <div class="row mb-3"><div class="col-5">
+                                    <div class="card title-color fw-bold text-start"><h3>Horarios</h3></div></div></div>
+                                <div class="row">
+                                    <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search by event, teams">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-12 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152460/isolated/lists/825e80bac186d247dd9332f1440d20df-logotipo-del-equipo-de-futbol-de-alemania.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">14:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://imggraficos.gruporeforma.com/2022/08/Club-de-Futbol-Pachuca256x.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">12:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://imggraficos.gruporeforma.com/2022/08/SAN256x.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152614/isolated/lists/11c6b59243f4f0d0660f4d1a3b6bfb8a-logotipo-del-equipo-de-futbol-de-serbia.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">14:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152565/isolated/lists/6b042699fb2cc7eff547d015f5489080-logotipo-del-equipo-de-futbol-de-mexico.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://i.pinimg.com/originals/17/72/b7/1772b77f479f99cff69350c53088cf92.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">14:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://i.pinimg.com/originals/89/e0/95/89e09512be6fd7441606ad507867d4b3.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-5 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152460/isolated/lists/825e80bac186d247dd9332f1440d20df-logotipo-del-equipo-de-futbol-de-alemania.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">14:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-3 image-leage"></div>
+                                                <div class="col-9">
+                                                    <div class="row mb-3">
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://images.vexels.com/media/users/3/152571/isolated/lists/1c2d149eb0cba0d04f949a5e5b5c2e07-logotipo-del-equipo-de-futbol-de-nigeria.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                        <div class="col-4 d-flex justify-content-center align-items-center">
+                                                            <div class="fw-bold fs-3">15:00</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img class="image-fluid" width="60px" src="https://image-service.onefootball.com/transform?w=128&dpr=2&image=https://images.onefootball.com/icons/teams/164/6283.png" alt="Eqp 1">
+                                                            <div class="text-image mt-1">Escuela 1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="text-color text-card d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                        </div>
+                                                        <div class="col-6"><div class="text-card d-flex justify-content-center align-items-center">27-05-25</div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="opcion2" class="contenido-opcion" style="display: none;">
+                        <div class="row text-center mb-3">
+                            <div class="col">
+                                <div class="row mb-3">
+                                    <div class="col-5">
+                                        <div class="card title-color fw-bold text-start"><h3>Asientos</h3></div>
+                                    </div>
+                                </div>
+                                <div class="row estadio">
+                                    <div class="offset-1 col-3">
+                                        <img width="120px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                        <div class="col mt-1 text-center">LOCAL</div>
+                                    </div>
+                                    <div class="col-4 text-center d-flex justify-content-center align-items-center">
+                                        <div class="row">
+                                            <div class="col-12">Liga 3</div>
+                                            <div class="col-12 fw-bold">19 de octubre 2025</div>
+                                            <div class="col-12">Estadio</div>
+                                            <div class="col-12 fw-bold">19:00</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <img width="120px" src="https://images.vexels.com/media/users/3/152565/isolated/lists/6b042699fb2cc7eff547d015f5489080-logotipo-del-equipo-de-futbol-de-mexico.png" alt="Eqp 1">
+                                        <div class="col mt-1 text-center">VISITANTE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-2 col-8">
+                                <img src="https://www.footballticketsbarcelona.es/wordpress/wp-content/uploads/2021/01/golbaix.png" width="250px" alt="Estadio">
+                            </div>
+                            <div class="col-12">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <div class="card bg-primary">
+                                            <div class="card-title text-light"><h5>SECCIÓN A</h5></div>
+                                            <div class="card-body bg-light">
+                                                <div class="row">
+                                                    <div class="col-8">Liga 3 LOCAL VS VISITANTE <br> $1,500.00 MXN</div>
+                                                    <div class="col-4">Boleto normal <br> <button type="button" class="btn btn-primary">Comprar</button></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <div class="card bg-secondary"><div class="card-body"><h5>SECCIÓN B</h5></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="opcion3" class="contenido-opcion" style="display: none;">
+                        <div class="row text-center">
+                            <div class="col">
+                                <div class="row mb-3"><div class="col-5">
+                                    <div class="card title-color fw-bold text-start"><h3>Resultados</h3></div></div></div>
+                                <div class="row">
+                                    <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search by event, teams">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://imggraficos.gruporeforma.com/2022/08/Club-de-Futbol-Pachuca256x.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://imggraficos.gruporeforma.com/2022/08/Club-de-Futbol-Pachuca256x.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://imggraficos.gruporeforma.com/2022/08/SAN256x.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://images.vexels.com/media/users/3/152614/isolated/lists/11c6b59243f4f0d0660f4d1a3b6bfb8a-logotipo-del-equipo-de-futbol-de-serbia.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://images.vexels.com/media/users/3/152565/isolated/lists/6b042699fb2cc7eff547d015f5489080-logotipo-del-equipo-de-futbol-de-mexico.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://i.pinimg.com/originals/17/72/b7/1772b77f479f99cff69350c53088cf92.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://i.pinimg.com/originals/89/e0/95/89e09512be6fd7441606ad507867d4b3.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://images.vexels.com/media/users/3/152571/isolated/lists/1c2d149eb0cba0d04f949a5e5b5c2e07-logotipo-del-equipo-de-futbol-de-nigeria.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://image-service.onefootball.com/transform?w=128&dpr=2&image=https://images.onefootball.com/icons/teams/164/6283.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 card card-results card-background text-light mb-5 me-2">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="row"><div class="col"><h6>LOCAL VS VISITANTE</h6></div></div>
+                                                <div class="row"><div class="col text-image text-color">UEFA Champions League</div></div>
+                                                <div class="row mt-1">
+                                                    <div class="offset-2 col-2 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">LOCAL</div>
+                                                    </div>
+                                                    <div class="col-4 d-flex justify-content-center align-items-center"><h1>1 - 0</h1></div>
+                                                    <div class="col-3 d-flex flex-column align-items-center">
+                                                        <div class="col">
+                                                            <img width="70px" src="https://imggraficos.gruporeforma.com/2022/08/Club-de-Futbol-Pachuca256x.png" alt="Eqp 1">
+                                                        </div><div class="col mt-1 text-center">VISITANTE</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-6 text-image text-color d-flex justify-content-center align-items-center"><i class="fa-solid fa-location-dot me-1"></i>ESTADIO LEON</div>
+                                                    <div class="col-6 text-image fw-bold d-flex justify-content-center align-items-center">22-05-25</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="opcion4" class="contenido-opcion" style="display: none;">
+                        <div class="row text-center mb-3">
+                            <div class="col">
+                                <div class="row mb-3">
+                                    <div class="col-5">
+                                        <div class="card title-color fw-bold text-start"><h3>Información</h3></div>
+                                    </div>
+                                </div>
+                                <div class="row jugadores">
+                                    <div class="offset-2 col-3">
+                                        <img width="120px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="Eqp 1">
+                                        <div class="col mt-1 text-center">ESCUELA 15</div>
+                                    </div>
+                                    <div class="col-5 text-center d-flex justify-content-center align-items-center">
+                                        <div class="row">
+                                            <div class="col"><h1>ESCUELA 15</h1></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="card card-background text-light mb-3">
+                                    <div class="card-body">
+                                        <div class="row text-center d-flex justify-content-center align-items-center">
+                                            <div class="col-3">
+                                                <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="" srcset="">
+                                            </div>
+                                            <div class="col-3 fw-bold">PARTIDOS: 3</div>
+                                            <div class="col-3">Goleador: <br> Benito ocasio</div>
+                                            <div class="col-3"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-background text-light mb-3">
+                                    <div class="card-body">
+                                        <div class="row text-center d-flex justify-content-center align-items-center">
+                                            <div class="col-3">
+                                                <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="" srcset="">
+                                            </div>
+                                            <div class="col-3 fw-bold">PROXIMO PARTIDO:</div>
+                                            <div class="col-3">ESCUELA 15 VS ESCUELA 2</div>
+                                            <div class="col-3"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-background text-light">
+                                    <div class="card-body">
+                                        <div class="row text-center d-flex justify-content-center align-items-center">
+                                            <div class="col-3">
+                                                <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="" srcset="">
+                                            </div>
+                                            <div class="col-3 fw-bold">MVP:</div>
+                                            <div class="col-3">Alejandro Balde</div>
+                                            <div class="col-3"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -166,17 +655,17 @@
                             <h1>Futbook</h1>
                         </div>
                         <div class="col-2 offset-4">
-                            <select id="selector" class="form-select">
-                                <option value="opcion1">Horarios</option>
-                                <option value="opcion2">Asientos</option>
-                                <option value="opcion3">Resultados</option>
-                                <option value="opcion4">Información</option>
+                            <select id="selector2" class="form-select">
+                                <option value="opcion11">Horarios</option>
+                                <option value="opcion22">Asientos</option>
+                                <option value="opcion33">Resultados</option>
+                                <option value="opcion44">Información</option>
                             </select>
                         </div>
                     </div>
                     
                     <!-- Contenedores de cada opción (inicialmente ocultos, excepto el primero) -->
-                    <div id="opcion1" class="contenido-opcion" style="display: block;">
+                    <div id="opcion11" class="contenido-opcion2" style="display: block;">
                         <div class="row text-center">
                             <div class="col">
                                 <div class="row mb-3"><div class="col-3">
@@ -362,7 +851,7 @@
                         </div>
                     </div>
 
-                    <div id="opcion2" class="contenido-opcion" style="display: none;">
+                    <div id="opcion22" class="contenido-opcion2" style="display: none;">
                         <div class="row text-center mb-3">
                             <div class="col">
                                 <div class="row mb-3">
@@ -417,7 +906,7 @@
                         </div>
                     </div>
 
-                    <div id="opcion3" class="contenido-opcion" style="display: none;">
+                    <div id="opcion33" class="contenido-opcion2" style="display: none;">
                         <div class="row text-center">
                             <div class="col">
                                 <div class="row mb-3"><div class="col-3">
@@ -585,7 +1074,7 @@
                         </div>
                     </div>
 
-                    <div id="opcion4" class="contenido-opcion" style="display: none;">
+                    <div id="opcion44" class="contenido-opcion2" style="display: none;">
                         <div class="row text-center mb-3">
                             <div class="col">
                                 <div class="row mb-3">
@@ -621,7 +1110,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card card-background text-light">
+                                <div class="card card-background text-light mb-3">
                                     <div class="card-body">
                                         <div class="row text-center d-flex justify-content-center align-items-center">
                                             <div class="col-3">
@@ -629,6 +1118,18 @@
                                             </div>
                                             <div class="col-3 fw-bold">PROXIMO PARTIDO:</div>
                                             <div class="col-3">ESCUELA 15 VS ESCUELA 2</div>
+                                            <div class="col-3"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-background text-light">
+                                    <div class="card-body">
+                                        <div class="row text-center d-flex justify-content-center align-items-center">
+                                            <div class="col-3">
+                                                <img width="70px" src="https://images.vexels.com/media/users/3/152628/isolated/lists/3eef96e2de2ee777c2480680f178a0c3-logotipo-del-equipo-de-futbol-de-corea-del-sur.png" alt="" srcset="">
+                                            </div>
+                                            <div class="col-3 fw-bold">MVP:</div>
+                                            <div class="col-3">Alejandro Balde</div>
                                             <div class="col-3"><i class="fa-solid fa-arrow-right"></i></div>
                                         </div>
                                     </div>
