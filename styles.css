@@ -1,0 +1,119 @@
+body {
+    background: #2B5130;
+    background: -webkit-linear-gradient(to bottom, #2B5130, #111111);
+    background: linear-gradient(to bottom, #2B5130, #111111);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos base comunes */
+.title {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* WEARABLES (<= 359px) */
+@media (max-width: 359px) {
+    body {
+        font-size: 12px;
+    }
+    
+    .wearable-content {
+        padding: 5px;
+    }
+    
+    .wearable-optimized {
+        text-align: center;
+    }
+    
+    .action-btn {
+        padding: 15px;
+        margin: 10px auto;
+        display: block;
+        width: 90%;
+    }
+}
+
+/* MOBILES (360px - 767px) */
+@media (min-width: 360px) and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .mobile-content {
+        padding: 10px;
+    }
+    
+    .mobile-module {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+
+/* TABLETS (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .tablet-content {
+        padding: 20px;
+    }
+    
+    .tablet-optimized {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+/* DESKTOP (1025px - 1399px) */
+@media (min-width: 1025px) and (max-width: 1399px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .desktop-content {
+        padding: 25px;
+    }
+}
+
+/* TVs (1400px+) */
+@media (min-width: 1400px) {
+    body {
+        font-size: 24px;
+    }
+    
+    .tv-optimized {
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .tv-optimized h2 {
+        font-size: 2em;
+    }
+}
+
+/* Estilos para interacción */
+@media (pointer: coarse) {
+    .touch-target {
+        min-width: 44px;
+        min-height: 44px;
+    }
+}
+
+/* Orientación horizontal */
+@media (orientation: landscape) {
+    .horizontal-layout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Optimización para control remoto (TVs) */
+.focusable:focus {
+    outline: 3px solid #4d90fe;
+    transition: outline 0.2s;
+}
