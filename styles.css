@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 /* Estilos base comunes */
@@ -16,12 +17,13 @@ body {
 
 
 .title-color{
-    background-color: #C8F558; 
+    background-color: #C8F558 !important;  
 }
 
 .text-color{
     color: #C8F558 !important; 
 }
+
 
 .card-transparent{
     background-color: transparent !important;
@@ -33,6 +35,36 @@ body {
 
 .img-fluid{
     background-image: none !important;
+}
+
+.text-image{
+    font-size: .6em;
+}
+
+.secondary-text{
+    font-size: .5em;
+}
+
+.image-leage{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/239/418/511/uefa-champions-league-wallpaper-preview.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100%; /* Asegura que ocupe todo el ancho de la columna */
+    display: block; /* Puede ser flex, block, etc., dependiendo del contexto */
+    overflow: hidden; /* Evita que cualquier contenido se desborde */
+    position: relative; /* Útil si necesitas posicionar elementos hijos */
+}
+
+.card-results{
+    background-image: url('https://img.freepik.com/fotos-premium/abstracto-fondo-negro-lineas-doradas_1001175-47283.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100%; /* Asegura que ocupe todo el ancho de la columna */
+    display: block; /* Puede ser flex, block, etc., dependiendo del contexto */
+    overflow: hidden; /* Evita que cualquier contenido se desborde */
+    position: relative; /* Útil si necesitas posicionar elementos hijos */
 }
 
 /* WEARABLES (<= 359px) */
