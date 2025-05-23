@@ -14,6 +14,27 @@ body {
     text-align: center;
 }
 
+
+.title-color{
+    background-color: #C8F558; 
+}
+
+.text-color{
+    color: #C8F558 !important; 
+}
+
+.card-transparent{
+    background-color: transparent !important;
+}
+
+.card-background{
+    background-color: #211F21 !important;
+}
+
+.img-fluid{
+    background-image: none !important;
+}
+
 /* WEARABLES (<= 359px) */
 @media (max-width: 359px) {
     body {
