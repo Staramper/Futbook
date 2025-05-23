@@ -41,6 +41,10 @@ body {
     font-size: .6em;
 }
 
+.text-card{
+    font-size: .8em;
+}
+
 .secondary-text{
     font-size: .5em;
 }
@@ -67,6 +71,33 @@ body {
     overflow: hidden; /* Evita que cualquier contenido se desborde */
     position: relative; /* Útil si necesitas posicionar elementos hijos */
 }
+
+.estadio {
+    background-image: 
+        linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), /* Verde con 60% de opacidad */
+        url('https://assets.goal.com/images/v3/bltcb6483c18b1486e8/GettyImages-2180371170%20(1).jpg?auto=webp&format=pjpg&width=3840&quality=60') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.jugadores {
+    background-image: 
+        linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), /* Verde con 60% de opacidad */
+        url('https://img.asmedia.epimg.net/resizer/v2/EHH2U4VBG5MVNBEMLZPBEEWXMY.jpg?auth=edc20082d76b6abed7f01bf3b9494ffbb6279e31ec6af67efa1ffb0b66c7e302&width=1472&height=828&smart=true') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
 
 /* WEARABLES (<= 359px) */
 @media (max-width: 359px) {
@@ -107,7 +138,7 @@ body {
 }
 
 /* TABLETS (768px - 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
     body {
         font-size: 16px;
     }
@@ -124,7 +155,7 @@ body {
 }
 
 /* DESKTOP (1025px - 1399px) */
-@media (min-width: 1025px) and (max-width: 1399px) {
+@media (min-width: 1281px) and (max-width: 1399px) {
     body {
         font-size: 16px;
     }
